@@ -1,6 +1,6 @@
 ## Hello, Matheus Borges here! 👋
 
-### I’m a junior front end developer and copywriter.
+### I’m a front-end developer.
 
 #### 💻 Technologies I use daily:
 
