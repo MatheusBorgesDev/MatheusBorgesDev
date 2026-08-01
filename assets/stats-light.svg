@@ -2,11 +2,11 @@
   <rect x="0.5" y="0.5" width="459" height="199" rx="8" fill="#ffffff" stroke="#d0d7de"/>
   <text x="26" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#0969da">GitHub Stats</text>
   <text x="26" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Contributions (last year)</text>
-  <text x="434" y="82" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">264</text>
-  <text x="26" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Pull requests opened</text>
-  <text x="434" y="112" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">0</text>
-  <text x="26" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Repositories contributed to</text>
-  <text x="434" y="142" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">0</text>
+  <text x="434" y="82" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">262</text>
+  <text x="26" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Days with contributions</text>
+  <text x="434" y="112" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">64 days</text>
+  <text x="26" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Longest streak</text>
+  <text x="434" y="142" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">6 days</text>
   <text x="26" y="172" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#656d76">Public repositories</text>
   <text x="434" y="172" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f2328">40</text>
 </svg>

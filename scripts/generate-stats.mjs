@@ -42,14 +42,11 @@ query($login: String!) {
   user(login: $login) {
     name
     contributionsCollection {
-      totalPullRequestContributions
-      contributionCalendar { totalContributions }
+      contributionCalendar {
+        totalContributions
+        weeks { contributionDays { date contributionCount } }
+      }
     }
-    repositoriesContributedTo(
-      first: 1
-      contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]
-    ) { totalCount }
-    pullRequests { totalCount }
     repositories(
       first: 100
       ownerAffiliations: OWNER
@@ -114,6 +111,33 @@ function topLanguages(repos, limit = 6) {
     .slice(0, limit);
 }
 
+// Streaks are derived from the contribution calendar, which every token can
+// read in full. Counts like `pullRequests.totalCount` are viewer-scoped and
+// silently collapse to 0 under the Actions token when the work lives in private
+// repos, so they must not be put on the card.
+function streaks(calendar) {
+  const today = new Date().toISOString().slice(0, 10);
+  const days = calendar.weeks
+    .flatMap((week) => week.contributionDays)
+    .filter((day) => day.date <= today)
+    .sort((a, b) => a.date.localeCompare(b.date));
+
+  let longest = 0;
+  let run = 0;
+  let activeDays = 0;
+  for (const day of days) {
+    if (day.contributionCount > 0) {
+      run += 1;
+      activeDays += 1;
+    } else {
+      run = 0;
+    }
+    longest = Math.max(longest, run);
+  }
+
+  return { activeDays, longest };
+}
+
 const escapeXml = (value) =>
   String(value).replace(
     /[&<>"']/g,
@@ -140,13 +164,14 @@ ${inner}
 }
 
 function statsCard(theme, user) {
+  const calendar = user.contributionsCollection.contributionCalendar;
+  const { activeDays, longest } = streaks(calendar);
+  const days = (n) => `${n} ${n === 1 ? "day" : "days"}`;
+
   const rows = [
-    [
-      "Contributions (last year)",
-      user.contributionsCollection.contributionCalendar.totalContributions,
-    ],
-    ["Pull requests opened", user.pullRequests.totalCount],
-    ["Repositories contributed to", user.repositoriesContributedTo.totalCount],
+    ["Contributions (last year)", calendar.totalContributions],
+    ["Days with contributions", days(activeDays)],
+    ["Longest streak", days(longest)],
     ["Public repositories", user.repositories.totalCount],
   ];
 
