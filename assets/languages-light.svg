@@ -4,10 +4,10 @@
   <clipPath id="bar"><rect x="26" y="62" width="408" height="11" rx="5.5"/></clipPath>
   <rect x="26" y="62" width="408" height="11" rx="5.5" fill="#eaeef2"/>
   <g clip-path="url(#bar)">
-  <rect x="26.00" y="62" width="285.32" height="11" fill="#3178c6"/>
-  <rect x="311.32" y="62" width="70.08" height="11" fill="#f1e05a"/>
-  <rect x="381.40" y="62" width="27.82" height="11" fill="#e34c26"/>
-  <rect x="409.21" y="62" width="24.08" height="11" fill="#663399"/>
+  <rect x="26.00" y="62" width="285.08" height="11" fill="#3178c6"/>
+  <rect x="311.08" y="62" width="70.36" height="11" fill="#f1e05a"/>
+  <rect x="381.44" y="62" width="27.79" height="11" fill="#e34c26"/>
+  <rect x="409.23" y="62" width="24.06" height="11" fill="#663399"/>
   </g>
   <circle cx="31" cy="122.5" r="5" fill="#3178c6"/>
   <text x="44" y="126.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1f2328">TypeScript</text>
