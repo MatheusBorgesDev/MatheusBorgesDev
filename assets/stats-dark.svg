@@ -2,11 +2,11 @@
   <rect x="0.5" y="0.5" width="459" height="199" rx="8" fill="#0d1117" stroke="#30363d"/>
   <text x="26" y="38" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="600" fill="#58a6ff">GitHub Stats</text>
   <text x="26" y="82" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b949e">Contributions (last year)</text>
-  <text x="434" y="82" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">262</text>
+  <text x="434" y="82" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">264</text>
   <text x="26" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b949e">Pull requests opened</text>
-  <text x="434" y="112" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">21</text>
+  <text x="434" y="112" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">0</text>
   <text x="26" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b949e">Repositories contributed to</text>
-  <text x="434" y="142" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">4</text>
+  <text x="434" y="142" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">0</text>
   <text x="26" y="172" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#8b949e">Public repositories</text>
   <text x="434" y="172" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#c9d1d9">40</text>
 </svg>
