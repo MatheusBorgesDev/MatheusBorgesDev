@@ -1,0 +1,51 @@
+name: Update GitHub stats cards
+
+on:
+  schedule:
+    # Every day at 06:00 UTC (03:00 in Brazil).
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/generate-stats.mjs
+      - .github/workflows/stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate cards
+        env:
+          # Optional: add a classic PAT with `repo` scope as the STATS_TOKEN
+          # secret to include private contributions. Falls back to the built-in
+          # token, which counts public activity only.
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: node scripts/generate-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain assets)" ]; then
+            echo "Cards unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore: update GitHub stats cards"
+          git push
