@@ -1,10 +1,17 @@
 ## Hello, Matheus Borges here! 👋
 
-### Front-end developer — React, Next.js & TypeScript.
+### Software Engineer: React, Next.js and TypeScript, with Node, PostgreSQL and applied AI (MCP).
 
-I build interfaces that are fast, accessible and pleasant to use. Lately I've been going one layer deeper, designing and building the APIs behind my own products to understand the whole picture — the front-end is still where I'm strongest.
+I'm the sole frontend owner of a B2B cloud platform in production, and since November 2026 I also build backend features in NestJS and MongoDB. In my own projects I work across the stack and with AI integrations, directing AI agents from spec to production.
 
-🔭 Currently building **Dondolio** — a scheduling platform for local businesses.
+---
+
+### 🚀 Featured Projects
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[MCP Barber Shop](https://github.com/MatheusBorgesDev/mcp-lab)** · [live](https://mcp-barber-shop.vercel.app) | Public MCP server: connect your own AI (claude.ai, ChatGPT) to book, reschedule and cancel on a shared schedule that updates live. No double booking under concurrent requests, row-level security on every table, 406 tests. | TypeScript · MCP SDK · Vercel Functions · Supabase Postgres · Upstash Redis |
+| **[Wallety](https://github.com/MatheusBorgesDev/wallety)** 🚧 | Digital wallet API on a double-entry ledger, built so money is never created or lost under concurrent transfers and retried requests. Work in progress. | Express 5 · TypeScript · Prisma · PostgreSQL |
 
 ---
 
@@ -16,7 +23,6 @@ I build interfaces that are fast, accessible and pleasant to use. Lately I've be
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-433E38?style=for-the-badge&logo=react&logoColor=white)
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
@@ -25,26 +31,24 @@ I build interfaces that are fast, accessible and pleasant to use. Lately I've be
 
 ![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+**AI**
+
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
 **Testing & Tooling**
 
 ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
 ![Testing Library](https://img.shields.io/badge/Testing_Library-E33332?style=for-the-badge&logo=testinglibrary&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Biome](https://img.shields.io/badge/Biome-60A5FA?style=for-the-badge&logo=biome&logoColor=white)
 ![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
-
----
-
-### 🚀 Featured Projects
-
-| Project | What it is | Stack |
-| :--- | :--- | :--- |
-| **Dondolio** 🚧 | Scheduling platform for local businesses — customers find a business and book in a few taps, no account required. Currently in development. | Next.js · NestJS · Prisma · PostgreSQL |
-| **[Shortfy](https://github.com/MatheusBorgesDev/shortfy)** | Full-stack URL shortener with JWT auth, click tracking and a stats dashboard. | Next.js 15 · React 19 · Prisma · Vitest |
-| **[ArenaSync](https://github.com/MatheusBorgesDev/arena-sync)** | Court booking app with separate admin and customer areas, documented with an ADR for every architectural decision. | Next.js 16 · React 19 · TanStack Query · Zustand |
 
 ---
 
@@ -59,13 +63,12 @@ I build interfaces that are fast, accessible and pleasant to use. Lately I've be
   <img height="200" alt="Most used languages" src="assets/languages-light.svg">
 </picture>
 
-<sub>Cards are generated by a <a href=".github/workflows/stats.yml">GitHub Action</a> that runs daily and commits the SVGs to this repo — no third-party service involved.</sub>
+<sub>Cards are generated by a <a href=".github/workflows/stats.yml">GitHub Action</a> that runs daily and commits the SVGs to this repo, no third-party service involved.</sub>
 
 ---
 
 ### 📫 Contact me
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://matheus-borges-dev-portfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-borges-45baa9250/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheusborges-dev/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheusb.dev@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5549998213687)
